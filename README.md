@@ -1,5 +1,6 @@
 # Customer_Churn_Prediction
-This project's objective is to forecast customer churn for a telecom company
+This project's objective is to forecast customer churn for a telecom company.
+This dataset is valuable for analyzing customer behavior and developing strategies to reduce churn and improve customer retention.
 
 
 ## Problem Description; what is customer churn?
@@ -8,9 +9,14 @@ In the competitive telecommunications industry, understanding customer behavior 
 
 Customer churn means when a customer decides to stop using a company's services. Businesses often study customer churn analysis  since it is helpful for a company if they learn which customers are about to leave.
 
-## Aim of this project:
+## Data Description
 
-Apply different ML Model...
+This dataset provides comprehensive information on customer churn, services, account details, and demographic data. It includes:
+
+- **Churn**: A binary column denoting whether customers left ('Yes') or stayed ('No') within the last month.
+- **Services**: Information on services signed up for, such as phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies.
+- **Customer Account Info**: Details about customer tenure, contract type, payment method, paperless billing, monthly charges, and total charges.
+- **Demographics**: Demographic data, including gender, age range, and whether customers have partners and dependents.
 
 ## Objectives
 
