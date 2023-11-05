@@ -54,3 +54,8 @@ To gain a deeper comprehension of the data and provide our analysis with a clear
 
 
 - Summary: Summarize the project's findings and outcomes.
+
+
+## Model Building
+
+- I selected two machine learning models, K-Nearest Neighbors (KNN) and Gradient Boosting, for predicting customer churn. These models were chosen for their ability to effectively handle a wide range of data types, including both continuous and categorical variables.
