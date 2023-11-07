@@ -1,79 +1,56 @@
-# Customer_Churn_Prediction
-This project's objective is to forecast customer churn for a telecom company.
-This dataset is valuable for analyzing customer behavior and developing strategies to reduce churn and improve customer retention.
+## Customer_Churn_Prediction
 
+## **Introduction**
+This project aims to forecast customer churn for a telecom company. Customer churn prediction is crucial for businesses in the competitive telecommunications industry as it helps them understand and retain their customers, ultimately leading to increased revenue and customer satisfaction.
 
-## Problem Description; what is customer churn?
-In the competitive telecommunications industry, understanding customer behavior is crucial for staying ahead in the competition.
+## **Problem Description**
+Customer churn, in this context, refers to when a customer decides to stop using a company's services. Analyzing customer churn is valuable for identifying customers at risk of leaving.
 
+## **Data Description**
+The dataset provides comprehensive information on customer churn, services, account details, and demographic data, including:
 
-Customer churn means when a customer decides to stop using a company's services. Businesses often study customer churn analysis  since it is helpful for a company if they learn which customers are about to leave.
+- Churn: A binary column indicating whether customers left ('Yes') or stayed ('No') within the last month.
+- Services: Information about services signed up for, such as phone, multiple lines, internet, and more.
+- Customer Account Info: Details about customer tenure, contract type, payment method, and more.
+- Demographics: Information including gender, age range, and partner and dependent status.
 
-## Data Description
+## **Objectives**
+To guide our analysis, we have defined the following objectives:
 
-This dataset provides comprehensive information on customer churn, services, account details, and demographic data. It includes:
+1. Investigate the impact of customer tenure on churn.
+2. Explore correlations between churn and factors like monthly charges and total charges.
+3. Analyze the relationship between gender, partner status, and churn.
+4. Examine the influence of technical support on customer churn.
+5. Identify the most significant contract-related factors affecting churn.
+6. Assess the quality of service for customers with streaming services.
+7. Uncover insights related to phone and internet services in the telecom industry.
 
-- **Churn**: A binary column denoting whether customers left ('Yes') or stayed ('No') within the last month.
-- **Services**: Information on services signed up for, such as phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies.
-- **Customer Account Info**: Details about customer tenure, contract type, payment method, paperless billing, monthly charges, and total charges.
-- **Demographics**: Demographic data, including gender, age range, and whether customers have partners and dependents.
+## **Steps**
+1. **Problem Understanding**: Gain a clear understanding of the telecom churn prediction problem.
+2. **EDA**: Explore the data through data cleaning, data visualization, and feature analysis.
+3. **Data Split**: Divide the dataset into training and testing sets.
+4. **Feature Engineering**: Transform categorical features into numerical representations and standardize the features.
+5. **Model Training**: Train supervised learning models including Logistic Regression, Support Vector Machine, XGBoost, and Neural Network (Feedforward NN) on the training data.
+6. **Summary**: Summarize the project's findings and outcomes.
 
-## Objectives
-
-To gain a deeper comprehension of the data and provide our analysis with a clear focus, we can formulate some fundamental questions:
-
-1. How does the length of a customer's tenure with the company influence their likelihood of churning?
-
-2. Is there a correlation between churn and factors such as monthly charges and total charges?
-
-3. What is the connection between gender, partner status, and churn?
-
-4. Does the availability of technical support play a role in influencing customer churn?
-
-5. Which aspect of the contract has the most significant impact on the business?
-
-6. How does the quality of service differ for customers who have opted for streaming services?
-
-7. Given that the dataset pertains to the telecom industry, what insights can we uncover regarding phone and internet services?
-
-## Steps
-
-- Problem Understanding: Gain a clear understanding of the telecom churn prediction problem.
-
-
-- EDA: Utilize various visualization techniques to familiarize yourself with the data, uncover patterns, and analyze features.
-
-
-- Data Split: Divide the dataset into training and testing sets.
-
-
-- Feature Engineering: Transform categorical features into numerical representations and standardize the features.
-
-
-- Model Training: Train supervised learning models like SVM, Random Forest, and XGBoost on the training data and evaluate their performance on the test data.
-
-
-- Summary: Summarize the project's findings and outcomes.
-
-
-## Model Building
-I selected Logistic Regression, Support Vector Machine, XGbbost and Neural Network(FeedForward NN)
-These models offer diverse options for churn prediction, allowing you to choose the one that best fits the data and problem requirements.
+## **Model Building**
+We have chosen the following models for churn prediction, each serving specific purposes:
 
 1. **Logistic Regression**:
-   - Model: Simple linear model that works well with binary classification.
-   - Reason: Interpretable, suitable for categorical features, and serves as a good baseline model.
+   - Model: Simple linear model for binary classification.
+   - Reason: It is interpretable, suitable for categorical features, and serves as a baseline model.
 
 2. **Support Vector Machine (SVM)**:
    - Model: Effective for capturing complex decision boundaries.
-   - Reason: Handles both categorical and numerical features, with kernel tricks for feature mapping.
+   - Reason: SVM can handle both categorical and numerical features and is capable of using kernel tricks for feature mapping.
 
 3. **XGBoost**:
    - Model: Ensemble model with high predictive performance.
-   - Reason: Handles categorical data with one-hot encoding, excels at capturing complex relationships.
+   - Reason: XGBoost excels at handling categorical data with one-hot encoding and capturing complex relationships.
 
 4. **Neural Network (Feedforward NN)**:
    - Model: Deep learning model for capturing non-linear patterns.
    - Reason: Suitable for high-dimensional data, excels in handling intricate relationships.
 
-
+## **Conclusion**
+In conclusion, this project is focused on predicting customer churn in the telecom industry. By following the outlined steps and utilizing the selected models, we aim to provide valuable insights and recommendations for reducing churn and improving customer retention.
