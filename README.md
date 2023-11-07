@@ -57,5 +57,23 @@ To gain a deeper comprehension of the data and provide our analysis with a clear
 
 
 ## Model Building
+I selected Logistic Regression, Support Vector Machine, XGbbost and Neural Network(FeedForward NN)
+These models offer diverse options for churn prediction, allowing you to choose the one that best fits the data and problem requirements.
 
-- I selected four machine learning models, Logistic Regression, Random Forest, K-Nearest Neighbors (KNN) and Gradient Boosting, for predicting customer churn. These models were chosen for their ability to effectively handle a wide range of data types, including both continuous and categorical variables.
+1. **Logistic Regression**:
+   - Model: Simple linear model that works well with binary classification.
+   - Reason: Interpretable, suitable for categorical features, and serves as a good baseline model.
+
+2. **Support Vector Machine (SVM)**:
+   - Model: Effective for capturing complex decision boundaries.
+   - Reason: Handles both categorical and numerical features, with kernel tricks for feature mapping.
+
+3. **XGBoost**:
+   - Model: Ensemble model with high predictive performance.
+   - Reason: Handles categorical data with one-hot encoding, excels at capturing complex relationships.
+
+4. **Neural Network (Feedforward NN)**:
+   - Model: Deep learning model for capturing non-linear patterns.
+   - Reason: Suitable for high-dimensional data, excels in handling intricate relationships.
+
+
