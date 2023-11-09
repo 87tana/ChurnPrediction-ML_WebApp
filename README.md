@@ -42,7 +42,7 @@ We have chosen the following models for churn prediction, each serving specific 
 
 2. **Support Vector Machine (SVM)**:
    - Model: Effective for capturing complex decision boundaries.
-   - Reason: SVM can handle both categorical and numerical features and is capable of using kernel tricks for feature mapping.
+   - Reason: SVM is effective at capturing non-linear relationships in the data. In churn prediction, where the relationship between features and churn might not be strictly linear, SVM's ability to create non-linear decision boundaries can be beneficial.
 
 3. **XGBoost**:
    - Model: Ensemble model with high predictive performance.
