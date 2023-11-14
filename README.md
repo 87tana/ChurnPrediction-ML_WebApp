@@ -1,7 +1,7 @@
 ## Customer_Churn_Prediction
 
 ## **Introduction**
-This project aims to forecast customer churn for a telecom company. Customer churn prediction is crucial for businesses in the competitive telecommunications industry as it helps them understand and retain their customers, ultimately leading to increased revenue and customer satisfaction.
+This project focuses on predicting customer churn for a telecom company using a combination of machine learning and deep learning techniques. The prediction of customer churn is crucial for businesses, as acquiring new clients is often more expensive than retaining existing ones. The goal is to understand how and why customers are leaving the business.
 
 ## **Problem Description**
 Customer churn, in this context, refers to when a customer decides to stop using a company's services. Analyzing customer churn is valuable for identifying customers at risk of leaving.
