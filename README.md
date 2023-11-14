@@ -11,7 +11,7 @@ This project focuses on predicting customer churn for a telecom company using a 
 Customer churn, in this context, refers to when a customer decides to stop using a company's services. Analyzing customer churn is valuable for identifying customers at risk of leaving.
 
 ## **Data Description**
-The dataset provides comprehensive information on customer churn, services, account details, and demographic data, including:
+The [dataset](telco_customer_churn) provides comprehensive information on customer churn, services, account details, and demographic data, including:
 
 - Churn: A binary column indicating whether customers left ('Yes') or stayed ('No') within the last month.
 - Services: Information about services signed up for, such as phone, multiple lines, internet, and more.
