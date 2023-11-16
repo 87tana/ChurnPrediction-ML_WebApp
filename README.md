@@ -74,7 +74,7 @@ In conclusion, this project is focused on predicting customer churn in the telec
 3. **Support Vector Classifier (SVC)** exhibited slightly lower effectiveness specifically in dealing with imbalanced data, obtaining an AUC score of **0.77**.
 
 
-## Conclusion**
+## **Conclusion**
 
 - In this customer churn prediction study, a comprehensive analysis of machine learning (ML) and deep learning (DL) models, including Logistic Regression, Support Vector Classifier (SVC), XGBClassifier, and a Forward Neural Network (FNN), was conducted. The goal was to discern the models' efficacy in handling imbalanced datasets, with a specific emphasis on accuracy and the area under the receiver operating characteristic curve (AUC).
 
