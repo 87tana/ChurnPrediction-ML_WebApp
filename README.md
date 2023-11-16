@@ -60,3 +60,9 @@ We have chosen the following models for churn prediction, each serving specific 
 In conclusion, this project is focused on predicting customer churn in the telecom industry. By following the outlined steps and utilizing the selected models, we aim to provide valuable insights and recommendations for reducing churn and improving customer retention.
 
 ## **Evaluating Model Effectiveness with ROC Curve and AUC**
+
+<p align="center">
+    <img width="400" src="ROC_Curves.png" alt="Material Bread logo">  
+</p>
+
+
