@@ -67,11 +67,19 @@ In conclusion, this project is focused on predicting customer churn in the telec
 
 ## **Results** 
 
-1. **Logistic Regression** and XGBClassifier demonstrated robust performance in effectively handling imbalanced data, both achieving an AUC score of '**0.86**.
+- Applied Logistic Regression, SVC, XGBClassifier, and Forward Neural Network for customer churn prediction.
 
-2. The **Forward Neural Network (FNN)** closely trailed behind, showcasing competitive performance with an AUC score of **0.84**.
+- Conducted exploratory data analysis to unveil underlying patterns.
 
-3. **Support Vector Classifier (SVC)** exhibited slightly lower effectiveness specifically in dealing with imbalanced data, obtaining an AUC score of **0.77**.
+- Improved accuracy using SMOTETomek resampling, reducing false positives.
+
+- Hyper tune the models and achieved commendable accuracy and ROC performance (~86%) across all models, except SVM.
+
+- **Logistic Regression** and XGBClassifier demonstrated robust performance with an AUC of **0.86**.
+
+- The **Forward Neural Network (FNN)** closely trailed with a competitive AUC of **0.84**.
+
+- **Support Vector Classifier (SVC)** exhibited slightly lower effectiveness with an AUC of **0.77**.
 
 
 ## **Conclusion**
