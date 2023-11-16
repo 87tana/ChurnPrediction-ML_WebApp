@@ -65,10 +65,39 @@ In conclusion, this project is focused on predicting customer churn in the telec
     <img width="400" src="ROC_Curves.png" alt="Material Bread logo">  
 </p>
 
-## **Resulta** 
+## **Results** 
 
 1. **Logistic Regression** and XGBClassifier demonstrated robust performance in effectively handling imbalanced data, both achieving an AUC score of '**0.86**.
 
 2. The **Forward Neural Network (FNN)** closely trailed behind, showcasing competitive performance with an AUC score of **0.84**.
 
 3. **Support Vector Classifier (SVC)** exhibited slightly lower effectiveness specifically in dealing with imbalanced data, obtaining an AUC score of **0.77**.
+
+
+## Conclusion**
+
+- In this customer churn prediction study, a comprehensive analysis of machine learning (ML) and deep learning (DL) models, including Logistic Regression, Support Vector Classifier (SVC), XGBClassifier, and a Forward Neural Network (FNN), was conducted. The goal was to discern the models' efficacy in handling imbalanced datasets, with a specific emphasis on accuracy and the area under the receiver operating characteristic curve (AUC).
+
+
+
+- **Hyperparameter Tuning for Imbalanced Datasets**:
+
+- To address the challenge posed by imbalanced data, hyperparameter tuning was applied across all models. The focus was on optimizing not only accuracy but also the F1 score, a crucial metric for imbalanced datasets. The tuning process aimed to strike a balance between effectively classifying both majority and minority classes.
+
+
+
+- **Model Performance Metrics**:
+After hyperparameter tuning, slight but significant differences in accuracy and AUC scores were observed among the selected models. It's noteworthy that accuracy alone is not a reliable metric for evaluating models dealing with imbalanced data. As anticipated, the ROC AUC scores emerged as more insightful indicators of the models' effectiveness in handling class imbalances.
+
+
+
+- **ROC AUC Scores**:
+The AUC scores revealed valuable insights into the models' performances. Logistic Regression and XGBClassifier demonstrated notable effectiveness with AUC scores of 0.86. The FNN closely followed with a commendable score of 0.84. However, the SVC model lagged slightly behind with an AUC score of 0.77, indicating potential challenges in handling imbalanced data compared to its counterparts.
+
+
+
+- **Neural Network Optimization**:
+The Forward Neural Network underwent a meticulous optimization process. Iteratively, the network architecture was refined from 2 to 6 hidden layers. The **learning rate** and the number of **epochs** were systematically adjusted, and the resultant changes in accuracy and loss were closely monitored. This step-by-step enhancement aimed to uncover the optimal configuration that maximizes predictive performance.
+
+
+- Further exploration is recommended to advance predictive capabilities for customer churn prediction in imbalanced datasets.
