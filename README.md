@@ -65,4 +65,10 @@ In conclusion, this project is focused on predicting customer churn in the telec
     <img width="400" src="ROC_Curves.png" alt="Material Bread logo">  
 </p>
 
+## **Resulta** 
 
+1. **Logistic Regression** and XGBClassifier demonstrated robust performance in effectively handling imbalanced data, both achieving an AUC score of '**0.86**.
+
+2. The **Forward Neural Network (FNN)** closely trailed behind, showcasing competitive performance with an AUC score of **0.84**.
+
+3. **Support Vector Classifier (SVC)** exhibited slightly lower effectiveness specifically in dealing with imbalanced data, obtaining an AUC score of **0.77**.
