@@ -7,7 +7,7 @@
 ## **App**
 
 <p align="center">
-    <img width="400" src="Userguiding-1.png" alt="Material Bread logo">
+    <img width="400" src="Screenshot from 2024-10-08 10-20-20.png" alt="Material Bread logo">
 </p>
 
 
