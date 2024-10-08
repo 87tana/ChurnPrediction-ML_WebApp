@@ -1,7 +1,7 @@
 # Customer Churn Prediction ML,DL and WebApp
 
 <p align="center">
-    <img width="300" src="" alt="Material Bread logo">
+    <img width="300" src="Userguiding-1.png" alt="Material Bread logo">
 </p>
 
 ## **Churn Prediction Web App**
