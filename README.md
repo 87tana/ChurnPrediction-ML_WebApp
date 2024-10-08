@@ -1,24 +1,25 @@
-# Customer Churn Prediction using ML,DL and creating Web_app 
+# Customer Churn Prediction ML,DL and WebApp
 
+## **Churn Prediction Web App**
 
-
-
-
-
-
-
-
+A Streamlit web app has been built to make customer churn prediction interactive, allowing users to input customer details and receive real-time predictions. The app is integrated with multiple machine learning models and is designed to help telecom companies retain customers by identifying those at risk of churn.
 
 
 <p align="center">
-    <img width="400" src="Userguiding-1.png" alt="Material Bread logo">
+    <img width="800" src="Screenshot from 2024-10-08 10-20-20.png" alt="Material Bread logo">
 </p>
 
-## **App**
 
-<p align="center">
-    <img width="400" src="Screenshot from 2024-10-08 10-20-20.png" alt="Material Bread logo">
-</p>
+
+
+
+
+
+
+
+
+
+
 
 
 
